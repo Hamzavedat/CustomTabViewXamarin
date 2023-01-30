@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "i3pRabJieDw1GtMdmXcldVOmSXRK9DoNdAg7mveCfCdHTfBgD1NzedtUzHmEVe3E3cslBq2+QadlIex2m4DJbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\TabDeneme.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hceng\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\hceng\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hceng\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\hceng\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

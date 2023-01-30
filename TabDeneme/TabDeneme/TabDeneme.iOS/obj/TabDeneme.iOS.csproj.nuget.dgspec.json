@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\TabDeneme.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\TabDeneme.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\TabDeneme.iOS.csproj",
+        "projectName": "TabDeneme.iOS",
+        "projectPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\TabDeneme.iOS.csproj",
+        "packagesPath": "C:\\Users\\hceng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hceng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\TabDeneme.csproj": {
+                "projectPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\TabDeneme.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\TabDeneme.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\TabDeneme.csproj",
+        "projectName": "TabDeneme",
+        "projectPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\TabDeneme.csproj",
+        "packagesPath": "C:\\Users\\hceng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabDeneme\\TabDeneme\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hceng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabLibrary\\TabLibrary.csproj": {
+                "projectPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabLibrary\\TabLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabLibrary\\TabLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabLibrary\\TabLibrary.csproj",
+        "projectName": "TabLibrary",
+        "projectPath": "C:\\Users\\hceng\\Desktop\\Hamza Projects\\TabDeneme\\TabLibrary\\TabLibrary.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:tablibrary="clr-namespace:TabLibrary;assembly=TabLibrary"
+             x:Class="TabDeneme.MainPage"  >
+
+    <StackLayout Orientation="Vertical">
+        <Button Text="Tıkla" Clicked="Button_Clicked"></Button>
+        <Button Text="Tıkla" Clicked="Button_Clicked_1"></Button>
+        <Button Text="Sil" Clicked="Button_Clicked_2"></Button>
+        <tablibrary:TabView x:Name="tab" TabbarHeight="40" SwipeEnable="True" VerticalOptions="FillAndExpand" TabBarPosition="Right" HorizontalOptions="FillAndExpand">
+            <tablibrary:TabViewItem x:Name="tab1" Title="TAB 1" TabBackgroundColor="Black" SelectedTabBackgroundColor="Blue" TextColor="White" WidthRequest="150" >
+                <ContentView BackgroundColor="Orange">
+                    <Label Text="1qwada"/>
+                </ContentView>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 2" TabBackgroundColor="Black" SelectedTabBackgroundColor="Red" TextColor="White" WidthRequest="150">
+                <StackLayout BackgroundColor="Gray">
+                    <Label Text="2qwada"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 3" TabBackgroundColor="Transparent" SelectedTabBackgroundColor="Red" TextColor="Gold" WidthRequest="150">
+                <StackLayout BackgroundColor="Green">
+                    <Label Text="3qwada"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 4" TabBackgroundColor="Black" SelectedTabBackgroundColor="Red" TextColor="White" WidthRequest="150">
+                <StackLayout BackgroundColor="Black">
+                    <Label Text="4qwada" TextColor="White"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 5" TabBackgroundColor="Black" SelectedTabBackgroundColor="Red" TextColor="White" WidthRequest="150">
+                <StackLayout BackgroundColor="AliceBlue">
+                    <Label Text="5qwada"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 6" TabBackgroundColor="Black" SelectedTabBackgroundColor="Red" TextColor="White" WidthRequest="150">
+                <StackLayout BackgroundColor="DarkGoldenrod">
+                    <Label Text="6qwada"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+            <tablibrary:TabViewItem Title="TAB 7" TabBackgroundColor="Black" SelectedTabBackgroundColor="Red" TextColor="White" WidthRequest="150">
+                <StackLayout BackgroundColor="Blue">
+                    <Label Text="7qwada"/>
+                </StackLayout>
+            </tablibrary:TabViewItem>
+
+        </tablibrary:TabView>
+
+    </StackLayout>
+
+</ContentPage>
